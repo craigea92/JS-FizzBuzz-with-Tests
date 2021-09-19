@@ -12,7 +12,7 @@ class FizzBuzz {
     } else if (this._isDivisibleBy(5, number)) {
       return 'Buzz'
     } else {
-      return number;
+      return 'Not Divisible by 3 and/or 5';
     }
   };
 };
