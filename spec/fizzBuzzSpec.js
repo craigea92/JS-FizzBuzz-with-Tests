@@ -11,4 +11,10 @@ describe('FizzBuzz', () => {
       expect(fizzBuzz.play(3)).toEqual('Fizz');
     });
   })
+
+  describe('multiples of 5', () => {
+    it('replaces with Buzz', () => {
+      expect(fizzBuzz.play(5)).toEqual('Buzz')
+    });
+  })
 })
